@@ -1,0 +1,21 @@
+09-26 00:09 root         INFO     Test Loss
+09-26 00:09 root         INFO     mean loss for pred loaded strip: 0.032023150473833084
+09-26 00:09 root         INFO     mean loss for pred unloaded strip: 0.05802613124251366
+09-26 00:09 root         INFO     mean loss for recover cross section: 0.00013563140237238258
+09-26 00:09 root         INFO     
+09-26 00:09 root         INFO     Test Error for Stage: loading
+09-26 00:09 root         INFO     mean distance of last point: 0.12336908424689329
+09-26 00:09 root         INFO     max distance of last point: 1.207113026372082
+09-26 00:09 root         INFO     min distance of last point: 0.012111924396248992
+09-26 00:09 root         INFO     mean of distance for each sample: 0.061129151954229466
+09-26 00:09 root         INFO     max of distance for each sample: 0.28040694750965783
+09-26 00:09 root         INFO     min of distance for each sample: 0.012908644797701447
+09-26 00:09 root         INFO     
+09-26 00:09 root         INFO     Test Error for Stage: unloading
+09-26 00:09 root         INFO     mean distance of last point: 0.4462282055522714
+09-26 00:09 root         INFO     max distance of last point: 5.674426773268003
+09-26 00:09 root         INFO     min distance of last point: 0.0358284993590511
+09-26 00:09 root         INFO     mean of distance for each sample: 0.16595257031988708
+09-26 00:09 root         INFO     max of distance for each sample: 2.0650553472990434
+09-26 00:09 root         INFO     min of distance for each sample: 0.019180894344195683
+09-26 00:09 root         INFO     
