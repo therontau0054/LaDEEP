@@ -94,13 +94,6 @@ class LaDEEPDataLoader(Dataset):
     def _read_section_sdf(self, path):
         return np.expand_dims(cv2.imread(path, cv2.IMREAD_UNCHANGED), axis = 0)
 
-    def _read_section_sdf_deprecated(self, path):
-        sdf = self.read_2d_array_from_txt(path)
-        min_val, max_val = np.min(sdf), np.max(sdf)
-        normalized_sdf = (sdf - min_val) / (max_val - min_val)
-        normalized_sdf = np.expand_dims(normalized_sdf, axis = 0)
-        return normalized_sdf
-
     def _read_params(self, path):
         params = np.loadtxt(path, delimiter = ",")
         params = np.expand_dims(np.sum(params, axis = 0), axis = 0)
