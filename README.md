@@ -1,6 +1,6 @@
 # LaDEEP (KDD 2025)
 
-Code for "LaDEEP: A Deep Learning-based Surrogate Model for Large Deformation of Elastic-Plastic Solids", accepted at KDD 2025 ADS Track.
+Code for ["LaDEEP: A Deep Learning-based Surrogate Model for Large Deformation of Elastic-Plastic Solids"](https://dl.acm.org/doi/10.1145/3711896.3737238), accepted at KDD 2025 ADS Track.
 
 ## Usage
 
@@ -67,6 +67,19 @@ Any further questions, please contact shilongtao@stu.pku.edu.cn.
 
 If you find this repo useful for you, please consider citing the following paper:
 ```
-# TODO
+@inproceedings{tao2025ladeep,
+  title={LaDEEP: A Deep Learning-based Surrogate Model for Large Deformation of Elastic-Plastic Solids},
+  author={Tao, Shilong and Feng, Zhe and Sun, Haonan and Zhu, Zhanxing and Liu, Yunhuai},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+  year={2025}
+}
+
+@inproceedings{tao2025unisoma,
+  title={Unisoma: A Unified Transformer-based Solver for Multi-Solid Systems},
+  author={Tao, Shilong and Feng, Zhe and Sun, Haonan and Zhu, Zhanxing and Liu, Yunhuai},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025}
+}
+
 ```
 
